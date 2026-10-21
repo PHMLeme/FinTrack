@@ -5,6 +5,12 @@ from datetime import date
 import database as db
 from dateutil.relativedelta import relativedelta
 
+# Definindo regras css para estilizar o projeto
+def local_css(regras):
+    with open(regras, "r", encoding = "utf-8") as css:
+        st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html = True)
+local_css("regras.css")
+
 st.set_page_config(
     page_title = "Fintrack",
     page_icon = "$",
