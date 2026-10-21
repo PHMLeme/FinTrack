@@ -1,4 +1,6 @@
-# FinTrack - Rastreador de Hábitos financeiros
+# FinTrack
+
+Um estudo de caso para treinar habilidades Python e SQL.
 
 O Fintrack é uma aplicação desktop de controle financeiro pessoal desenvolvida em Python. O projeto salva os dados localmente para garantir a privacidade e segurança dos seus dados sem dependência de servidores externos ou nuvem.
 
